@@ -1,0 +1,9 @@
+.card-list-container {
+    background-color: blueviolet;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    width: fit-content;
+    height: fit-content;
+
+}
