@@ -31,6 +31,7 @@ class App extends Component {
     })
     return (
       <div className="App">
+        <h1 id='robots-name'>Monstor Robots</h1>
         <SearchBox
           placeHolder = "search Robots"
           changeHandler={this.changeHandler}/>
