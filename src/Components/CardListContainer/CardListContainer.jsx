@@ -1,5 +1,5 @@
 import React from 'react'
-import { CardList } from '../CardList/CardList'
+import { Card } from '../CardList/Card'
 import './CardListContainer.css'
 
 export const CardListContainer = (props) => {
@@ -7,7 +7,7 @@ export const CardListContainer = (props) => {
         <div className='card-list-container'>
             {
                 props.robots.map(robot => (
-                    <CardList key={robot.id} firstName={robot.firstName} lastName={robot.lastName} />
+                    <Card key={robot.id} firstName={robot.firstName} lastName={robot.lastName} email = {robot.email} image = {robot.image} />
                 ))
             }
         </div>
